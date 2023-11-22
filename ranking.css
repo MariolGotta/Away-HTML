@@ -195,6 +195,11 @@
 .ranking-container4 {
   display: contents;
 }
+@media(max-width: 1200px) {
+  .ranking-container {
+    border-width: 0px;
+  }
+}
 @media(max-width: 767px) {
   .ranking-navbar-interactive {
     padding-left: var(--dl-space-space-twounits);

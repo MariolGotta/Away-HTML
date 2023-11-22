@@ -202,6 +202,8 @@
 }
 @media(max-width: 1600px) {
   .home-text1 {
+    width: var(--dl-size-size-maxwidth);
+    height: auto;
     text-align: center;
     line-height: 2;
   }
@@ -305,9 +307,12 @@
     color: var(--dl-color-gray-white);
   }
   .home-text1 {
+    top: 200px;
+    left: 65px;
     color: var(--dl-color-gray-white);
     width: 350px;
     height: auto;
+    position: absolute;
     font-style: normal;
     font-weight: 500;
     line-height: 2;

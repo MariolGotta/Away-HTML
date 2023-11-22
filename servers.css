@@ -55,7 +55,7 @@
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.servers-navlink3 {
+.servers-text {
   color: var(--dl-color-gray-white);
   font-size: 18px;
   font-style: normal;
@@ -63,7 +63,7 @@
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.servers-navlink4 {
+.servers-navlink3 {
   color: var(--dl-color-gray-white);
   font-size: 18px;
   font-style: normal;
@@ -130,19 +130,19 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.servers-navlink4 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
 .servers-navlink5 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
+.servers-text1 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
 .servers-navlink6 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.servers-navlink7 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.servers-navlink8 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -160,10 +160,10 @@
   .servers-navlink2 {
     font-family: Roboto;
   }
-  .servers-navlink3 {
+  .servers-text {
     font-family: Roboto;
   }
-  .servers-navlink4 {
+  .servers-navlink3 {
     font-family: Roboto;
   }
   .servers-link {
@@ -182,21 +182,21 @@
   .servers-mobile-menu {
     background-color: #161616;
   }
+  .servers-navlink4 {
+    color: var(--dl-color-gray-white);
+    margin-bottom: var(--dl-space-space-unit);
+  }
   .servers-navlink5 {
     color: var(--dl-color-gray-white);
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .servers-text1 {
+    color: var(--dl-color-gray-white);
+    margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
   .servers-navlink6 {
-    color: var(--dl-color-gray-white);
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .servers-navlink7 {
-    color: var(--dl-color-gray-white);
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .servers-navlink8 {
     color: var(--dl-color-gray-white);
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
@@ -224,19 +224,19 @@
   .servers-logo {
     box-shadow: 5px 5px 10px 0px #d4d4d4;
   }
+  .servers-navlink4 {
+    color: var(--dl-color-gray-white);
+    font-family: Roboto;
+  }
   .servers-navlink5 {
     color: var(--dl-color-gray-white);
     font-family: Roboto;
   }
+  .servers-text1 {
+    color: var(--dl-color-gray-white);
+    font-family: Roboto;
+  }
   .servers-navlink6 {
-    color: var(--dl-color-gray-white);
-    font-family: Roboto;
-  }
-  .servers-navlink7 {
-    color: var(--dl-color-gray-white);
-    font-family: Roboto;
-  }
-  .servers-navlink8 {
     color: var(--dl-color-gray-white);
     font-family: Roboto;
   }

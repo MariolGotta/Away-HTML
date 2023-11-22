@@ -192,12 +192,12 @@
 }
 @media(max-width: 1200px) {
   .home-container2 {
-    width: 1200px;
+    width: 1100px;
   }
 }
 @media(max-width: 991px) {
   .home-container2 {
-    width: 991px;
+    width: 900px;
   }
 }
 @media(max-width: 767px) {
@@ -241,7 +241,7 @@
     margin-bottom: var(--dl-space-space-unit);
   }
   .home-container2 {
-    width: 767px;
+    width: 700px;
     align-self: center;
   }
 }
@@ -275,7 +275,7 @@
     color: var(--dl-color-gray-white);
   }
   .home-container2 {
-    width: 479px;
+    width: 400px;
     height: 236px;
     margin-bottom: 0px;
     padding-bottom: 0px;

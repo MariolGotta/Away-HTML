@@ -182,9 +182,6 @@
   text-align: center;
   line-height: 2;
 }
-.home-text3 {
-  color: var(--dl-color-gray-white);
-}
 @media(max-width: 1600px) {
   .home-text1 {
     text-align: center;
@@ -288,6 +285,7 @@
     color: var(--dl-color-gray-white);
   }
   .home-text1 {
+    color: var(--dl-color-gray-white);
     width: 350px;
     height: auto;
     font-style: normal;

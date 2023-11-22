@@ -178,6 +178,7 @@
 }
 .home-container2 {
   width: var(--dl-size-size-maxwidth);
+  height: 139px;
 }
 .home-container3 {
   display: contents;

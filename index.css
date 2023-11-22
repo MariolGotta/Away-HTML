@@ -174,7 +174,9 @@
   color: var(--dl-color-gray-white);
   width: 1400px;
   font-size: 12px;
+  font-style: normal;
   text-align: center;
+  font-weight: 500;
   line-height: 2;
 }
 .home-social-bar {
@@ -259,7 +261,7 @@
     height: auto;
     align-self: center;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 2;
   }
   .home-social-bar {
@@ -307,7 +309,7 @@
     width: 350px;
     height: auto;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 2;
   }
   .home-social-bar {

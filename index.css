@@ -177,6 +177,7 @@
   font-weight: 900;
 }
 .home-text1 {
+  color: var(--dl-color-gray-white);
   width: var(--dl-size-size-maxwidth);
   font-size: 12px;
   text-align: center;
@@ -190,6 +191,7 @@
 }
 @media(max-width: 1200px) {
   .home-text1 {
+    color: var(--dl-color-gray-white);
     width: 1100px;
     text-align: center;
     line-height: 2;

@@ -264,4 +264,7 @@
   .ranking-link1 {
     color: var(--dl-color-gray-white);
   }
+  .ranking-container2 {
+    height: var(--dl-size-size-maxwidth);
+  }
 }

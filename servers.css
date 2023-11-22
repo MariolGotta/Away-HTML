@@ -18,12 +18,8 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.servers-navlink {
-  display: contents;
-}
 .servers-image {
   height: 2rem;
-  text-decoration: none;
 }
 .servers-desktop-menu {
   flex: 1;
@@ -37,7 +33,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.servers-navlink01 {
+.servers-navlink {
   color: var(--dl-color-gray-white);
   font-size: 18px;
   font-style: normal;
@@ -45,7 +41,7 @@
   font-weight: 600;
   text-decoration: none;
 }
-.servers-navlink02 {
+.servers-navlink1 {
   color: var(--dl-color-gray-white);
   font-size: 18px;
   font-style: normal;
@@ -53,7 +49,7 @@
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.servers-navlink03 {
+.servers-navlink2 {
   color: var(--dl-color-gray-white);
   font-size: 18px;
   font-style: normal;
@@ -61,7 +57,7 @@
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.servers-navlink04 {
+.servers-navlink3 {
   color: var(--dl-color-gray-white);
   font-size: 18px;
   font-style: normal;
@@ -128,23 +124,23 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.servers-navlink05 {
+.servers-navlink4 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.servers-navlink06 {
+.servers-navlink5 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.servers-navlink07 {
+.servers-navlink6 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.servers-navlink08 {
+.servers-navlink7 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.servers-navlink09 {
+.servers-navlink8 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -156,16 +152,16 @@
   border: 2px dashed rgba(120, 120, 120, 0.4);
 }
 @media(max-width: 1200px) {
-  .servers-navlink01 {
+  .servers-navlink {
     font-family: Roboto;
   }
-  .servers-navlink02 {
+  .servers-navlink1 {
     font-family: Roboto;
   }
-  .servers-navlink03 {
+  .servers-navlink2 {
     font-family: Roboto;
   }
-  .servers-navlink04 {
+  .servers-navlink3 {
     font-family: Roboto;
   }
   .servers-link {
@@ -188,26 +184,26 @@
   .servers-mobile-menu {
     background-color: #161616;
   }
-  .servers-navlink05 {
+  .servers-navlink4 {
     color: var(--dl-color-gray-white);
     margin-bottom: var(--dl-space-space-unit);
   }
-  .servers-navlink06 {
-    color: var(--dl-color-gray-white);
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .servers-navlink07 {
+  .servers-navlink5 {
     color: var(--dl-color-gray-white);
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .servers-navlink08 {
+  .servers-navlink6 {
     color: var(--dl-color-gray-white);
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .servers-navlink09 {
+  .servers-navlink7 {
+    color: var(--dl-color-gray-white);
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .servers-navlink8 {
     color: var(--dl-color-gray-white);
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
@@ -229,23 +225,23 @@
   .servers-logo {
     box-shadow: 5px 5px 10px 0px #d4d4d4;
   }
-  .servers-navlink05 {
+  .servers-navlink4 {
     color: var(--dl-color-gray-white);
     font-family: Roboto;
   }
-  .servers-navlink06 {
+  .servers-navlink5 {
     color: var(--dl-color-gray-white);
     font-family: Roboto;
   }
-  .servers-navlink07 {
+  .servers-navlink6 {
     color: var(--dl-color-gray-white);
     font-family: Roboto;
   }
-  .servers-navlink08 {
+  .servers-navlink7 {
     color: var(--dl-color-gray-white);
     font-family: Roboto;
   }
-  .servers-navlink09 {
+  .servers-navlink8 {
     color: var(--dl-color-gray-white);
     font-family: Roboto;
   }

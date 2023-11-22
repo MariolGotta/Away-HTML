@@ -39,7 +39,7 @@
 }
 .home-navlink1 {
   color: var(--dl-color-gray-white);
-  font-size: 20;
+  font-size: 18px;
   font-style: normal;
   font-family: "Inter";
   font-weight: 600;
@@ -47,7 +47,7 @@
 }
 .home-navlink2 {
   color: var(--dl-color-gray-white);
-  font-size: 20;
+  font-size: 18px;
   font-style: normal;
   font-weight: 600;
   margin-left: var(--dl-space-space-twounits);
@@ -55,7 +55,7 @@
 }
 .home-navlink3 {
   color: var(--dl-color-gray-white);
-  font-size: 20;
+  font-size: 18px;
   font-style: normal;
   font-weight: 600;
   margin-left: var(--dl-space-space-twounits);
@@ -63,7 +63,7 @@
 }
 .home-navlink4 {
   color: var(--dl-color-gray-white);
-  font-size: 20;
+  font-size: 18px;
   font-style: normal;
   font-weight: 600;
   margin-left: var(--dl-space-space-twounits);
@@ -71,7 +71,7 @@
 }
 .home-link {
   color: var(--dl-color-gray-white);
-  font-size: 20;
+  font-size: 18px;
   font-style: normal;
   font-weight: 600;
   margin-left: var(--dl-space-space-twounits);
@@ -205,7 +205,11 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
+  .home-desktop-menu {
+    display: none;
+  }
   .home-burger-menu {
+    display: flex;
     align-items: center;
     justify-content: center;
   }
@@ -248,12 +252,6 @@
   .home-navbar-interactive {
     padding: var(--dl-space-space-unit);
   }
-  .home-desktop-menu {
-    display: none;
-  }
-  .home-burger-menu {
-    display: flex;
-  }
   .home-mobile-menu {
     padding: 16px;
     background-color: #161616;
@@ -277,8 +275,8 @@
     color: var(--dl-color-gray-white);
   }
   .home-container2 {
-    width: 400px;
-    height: 236px;
+    width: 350px;
+    height: var(--dl-size-size-xxlarge);
     margin-bottom: 0px;
     padding-bottom: 0px;
   }

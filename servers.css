@@ -4,8 +4,6 @@
   overflow: auto;
   min-height: 100vh;
   align-items: center;
-  border-color: var(--dl-color-gray-black);
-  border-width: 1px;
   flex-direction: column;
   background-size: cover;
   background-image: url('https://i.imgur.com/udVIeVX.png');
@@ -64,14 +62,6 @@
   text-decoration: none;
 }
 .servers-navlink04 {
-  color: var(--dl-color-gray-white);
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  margin-left: var(--dl-space-space-twounits);
-  text-decoration: none;
-}
-.servers-navlink05 {
   color: var(--dl-color-gray-white);
   font-size: 18px;
   font-style: normal;
@@ -138,6 +128,10 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.servers-navlink05 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
 .servers-navlink06 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
@@ -151,10 +145,6 @@
   text-decoration: none;
 }
 .servers-navlink09 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.servers-navlink10 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -178,9 +168,6 @@
   .servers-navlink04 {
     font-family: Roboto;
   }
-  .servers-navlink05 {
-    font-family: Roboto;
-  }
   .servers-link {
     font-family: Roboto;
   }
@@ -190,15 +177,24 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
+  .servers-desktop-menu {
+    display: none;
+  }
   .servers-burger-menu {
+    display: flex;
     align-items: center;
     justify-content: center;
   }
   .servers-mobile-menu {
     background-color: #161616;
   }
+  .servers-navlink05 {
+    color: var(--dl-color-gray-white);
+    margin-bottom: var(--dl-space-space-unit);
+  }
   .servers-navlink06 {
     color: var(--dl-color-gray-white);
+    margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
   .servers-navlink07 {
@@ -212,11 +208,6 @@
     margin-bottom: var(--dl-space-space-unit);
   }
   .servers-navlink09 {
-    color: var(--dl-color-gray-white);
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .servers-navlink10 {
     color: var(--dl-color-gray-white);
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
@@ -231,18 +222,16 @@
   .servers-navbar-interactive {
     padding: var(--dl-space-space-unit);
   }
-  .servers-desktop-menu {
-    display: none;
-  }
-  .servers-burger-menu {
-    display: flex;
-  }
   .servers-mobile-menu {
     padding: 16px;
     background-color: #161616;
   }
   .servers-logo {
     box-shadow: 5px 5px 10px 0px #d4d4d4;
+  }
+  .servers-navlink05 {
+    color: var(--dl-color-gray-white);
+    font-family: Roboto;
   }
   .servers-navlink06 {
     color: var(--dl-color-gray-white);
@@ -257,10 +246,6 @@
     font-family: Roboto;
   }
   .servers-navlink09 {
-    color: var(--dl-color-gray-white);
-    font-family: Roboto;
-  }
-  .servers-navlink10 {
     color: var(--dl-color-gray-white);
     font-family: Roboto;
   }

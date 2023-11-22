@@ -39,7 +39,7 @@
 }
 .home-navlink1 {
   color: var(--dl-color-gray-white);
-  font-size: 18px;
+  font-size: 20;
   font-style: normal;
   font-family: "Inter";
   font-weight: 600;
@@ -47,7 +47,7 @@
 }
 .home-navlink2 {
   color: var(--dl-color-gray-white);
-  font-size: 18px;
+  font-size: 20;
   font-style: normal;
   font-weight: 600;
   margin-left: var(--dl-space-space-twounits);
@@ -55,7 +55,7 @@
 }
 .home-navlink3 {
   color: var(--dl-color-gray-white);
-  font-size: 18px;
+  font-size: 20;
   font-style: normal;
   font-weight: 600;
   margin-left: var(--dl-space-space-twounits);
@@ -63,7 +63,7 @@
 }
 .home-navlink4 {
   color: var(--dl-color-gray-white);
-  font-size: 18px;
+  font-size: 20;
   font-style: normal;
   font-weight: 600;
   margin-left: var(--dl-space-space-twounits);
@@ -71,7 +71,7 @@
 }
 .home-link {
   color: var(--dl-color-gray-white);
-  font-size: 18px;
+  font-size: 20;
   font-style: normal;
   font-weight: 600;
   margin-left: var(--dl-space-space-twounits);
@@ -179,6 +179,8 @@
 .home-container2 {
   width: var(--dl-size-size-maxwidth);
   height: 139px;
+  z-index: 100;
+  border-radius: var(--dl-radius-radius-radius4);
 }
 .home-container3 {
   display: contents;

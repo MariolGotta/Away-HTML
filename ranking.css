@@ -200,11 +200,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .ranking-desktop-menu {
-    display: none;
-  }
   .ranking-burger-menu {
-    display: flex;
     align-items: center;
     justify-content: center;
   }
@@ -239,6 +235,12 @@
 @media(max-width: 479px) {
   .ranking-navbar-interactive {
     padding: var(--dl-space-space-unit);
+  }
+  .ranking-desktop-menu {
+    display: none;
+  }
+  .ranking-burger-menu {
+    display: flex;
   }
   .ranking-mobile-menu {
     padding: 16px;

@@ -164,11 +164,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .members-desktop-menu {
-    display: none;
-  }
   .members-burger-menu {
-    display: flex;
     align-items: center;
     justify-content: center;
   }
@@ -203,6 +199,12 @@
 @media(max-width: 479px) {
   .members-navbar-interactive {
     padding: var(--dl-space-space-unit);
+  }
+  .members-desktop-menu {
+    display: none;
+  }
+  .members-burger-menu {
+    display: flex;
   }
   .members-mobile-menu {
     padding: 16px;

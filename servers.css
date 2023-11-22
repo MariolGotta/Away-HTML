@@ -165,11 +165,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .servers-desktop-menu {
-    display: none;
-  }
   .servers-burger-menu {
-    display: flex;
     align-items: center;
     justify-content: center;
   }
@@ -204,6 +200,12 @@
 @media(max-width: 479px) {
   .servers-navbar-interactive {
     padding: var(--dl-space-space-unit);
+  }
+  .servers-desktop-menu {
+    display: none;
+  }
+  .servers-burger-menu {
+    display: flex;
   }
   .servers-mobile-menu {
     padding: 16px;

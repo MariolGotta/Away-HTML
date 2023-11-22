@@ -80,13 +80,6 @@
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.ranking-buttons {
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
 .ranking-burger-menu {
   display: none;
 }
@@ -173,6 +166,7 @@
   color: var(--dl-color-gray-900);
   font-style: normal;
   text-align: center;
+  font-family: "Roboto";
   font-weight: 700;
   text-transform: capitalize;
 }
@@ -198,6 +192,21 @@
 @media(max-width: 1200px) {
   .ranking-container {
     border-width: 0px;
+  }
+  .ranking-navlink1 {
+    font-family: Roboto;
+  }
+  .ranking-navlink2 {
+    font-family: Roboto;
+  }
+  .ranking-navlink3 {
+    font-family: Roboto;
+  }
+  .ranking-navlink4 {
+    font-family: Roboto;
+  }
+  .ranking-link {
+    font-family: Roboto;
   }
 }
 @media(max-width: 767px) {
@@ -256,18 +265,23 @@
   }
   .ranking-navlink5 {
     color: var(--dl-color-gray-white);
+    font-family: Roboto;
   }
   .ranking-navlink6 {
     color: var(--dl-color-gray-white);
+    font-family: Roboto;
   }
   .ranking-navlink7 {
     color: var(--dl-color-gray-white);
+    font-family: Roboto;
   }
   .ranking-navlink8 {
     color: var(--dl-color-gray-white);
+    font-family: Roboto;
   }
   .ranking-link1 {
     color: var(--dl-color-gray-white);
+    font-family: Roboto;
   }
   .ranking-container2 {
     height: 1500px;

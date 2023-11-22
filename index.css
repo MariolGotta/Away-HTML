@@ -209,10 +209,29 @@
   }
 }
 @media(max-width: 1200px) {
+  .home-navlink1 {
+    font-family: Roboto;
+  }
+  .home-navlink2 {
+    font-family: Roboto;
+  }
+  .home-navlink3 {
+    font-family: Roboto;
+  }
+  .home-navlink4 {
+    font-family: Roboto;
+  }
+  .home-link {
+    font-family: Roboto;
+  }
+  .home-text {
+    font-family: Roboto;
+  }
   .home-text1 {
     color: var(--dl-color-gray-white);
     width: 1100px;
     text-align: center;
+    font-family: Roboto;
     line-height: 2;
   }
 }
@@ -295,18 +314,23 @@
   }
   .home-navlink5 {
     color: var(--dl-color-gray-white);
+    font-family: Roboto;
   }
   .home-navlink6 {
     color: var(--dl-color-gray-white);
+    font-family: Roboto;
   }
   .home-navlink7 {
     color: var(--dl-color-gray-white);
+    font-family: Roboto;
   }
   .home-navlink8 {
     color: var(--dl-color-gray-white);
+    font-family: Roboto;
   }
   .home-link1 {
     color: var(--dl-color-gray-white);
+    font-family: Roboto;
   }
   .home-text1 {
     color: var(--dl-color-gray-white);

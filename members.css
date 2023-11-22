@@ -78,13 +78,6 @@
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
-.members-buttons {
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
 .members-burger-menu {
   display: none;
 }
@@ -159,6 +152,23 @@
 .members-icon-group {
   border: 2px dashed rgba(120, 120, 120, 0.4);
 }
+@media(max-width: 1200px) {
+  .members-navlink1 {
+    font-family: Roboto;
+  }
+  .members-navlink2 {
+    font-family: Roboto;
+  }
+  .members-navlink3 {
+    font-family: Roboto;
+  }
+  .members-navlink4 {
+    font-family: Roboto;
+  }
+  .members-link {
+    font-family: Roboto;
+  }
+}
 @media(max-width: 767px) {
   .members-navbar-interactive {
     padding-left: var(--dl-space-space-twounits);
@@ -215,17 +225,22 @@
   }
   .members-navlink5 {
     color: var(--dl-color-gray-white);
+    font-family: Roboto;
   }
   .members-navlink6 {
     color: var(--dl-color-gray-white);
+    font-family: Roboto;
   }
   .members-navlink7 {
     color: var(--dl-color-gray-white);
+    font-family: Roboto;
   }
   .members-navlink8 {
     color: var(--dl-color-gray-white);
+    font-family: Roboto;
   }
   .members-link1 {
     color: var(--dl-color-gray-white);
+    font-family: Roboto;
   }
 }

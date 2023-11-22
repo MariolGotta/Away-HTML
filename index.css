@@ -219,7 +219,7 @@
 @media(max-width: 991px) {
   .home-text1 {
     width: 850px;
-    margin-top: 6px;
+    margin-top: var(--dl-space-space-halfunit);
     line-height: 2;
   }
 }
@@ -264,7 +264,7 @@
     height: auto;
     align-self: center;
     font-style: normal;
-    margin-top: var(--dl-space-space-halfunit);
+    margin-top: var(--dl-space-space-unit);
     font-weight: 400;
     line-height: 2;
   }
@@ -313,10 +313,10 @@
     width: 350px;
     height: auto;
     font-style: normal;
-    margin-top: var(--dl-space-space-unit);
+    margin-top: var(--dl-space-space-oneandhalfunits);
     font-weight: 400;
     line-height: 2;
-    margin-bottom: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
   .home-social-bar {
     padding-top: var(--dl-space-space-twounits);

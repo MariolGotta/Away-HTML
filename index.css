@@ -7,7 +7,7 @@
   align-items: center;
   flex-direction: column;
   background-size: cover;
-  background-image: url('https://media.discordapp.net/attachments/1061100310724104192/1177001408688574545/def.webp?ex=6570eafb&is=655e75fb&hm=12c05cb2094b7a9a6734a6d79657abe60c24d1efbc34972a1915a859d26cc9b2&=&format=webp');
+  background-image: url("public/background-1500w.webp");
 }
 .home-navbar-interactive {
   width: 100%;
@@ -18,13 +18,6 @@
   padding-right: var(--dl-space-space-threeunits);
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
-}
-.home-navlink {
-  display: contents;
-}
-.home-image {
-  height: 2rem;
-  text-decoration: none;
 }
 .home-desktop-menu {
   flex: 1;
@@ -38,12 +31,20 @@
   flex-direction: row;
   justify-content: center;
 }
-.home-navlink1 {
+.home-navlink {
   color: var(--dl-color-gray-white);
   font-size: 18px;
   font-style: normal;
   font-family: "Inter";
   font-weight: 600;
+  text-decoration: none;
+}
+.home-navlink1 {
+  color: var(--dl-color-gray-white);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
 .home-navlink2 {
@@ -55,14 +56,6 @@
   text-decoration: none;
 }
 .home-navlink3 {
-  color: var(--dl-color-gray-white);
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  margin-left: var(--dl-space-space-twounits);
-  text-decoration: none;
-}
-.home-navlink4 {
   color: var(--dl-color-gray-white);
   font-size: 18px;
   font-style: normal;
@@ -129,6 +122,10 @@
   align-items: flex-start;
   flex-direction: column;
 }
+.home-navlink4 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
 .home-navlink5 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
@@ -138,10 +135,6 @@
   text-decoration: none;
 }
 .home-navlink7 {
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.home-navlink8 {
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
@@ -209,6 +202,9 @@
   }
 }
 @media(max-width: 1200px) {
+  .home-navlink {
+    font-family: Roboto;
+  }
   .home-navlink1 {
     font-family: Roboto;
   }
@@ -216,9 +212,6 @@
     font-family: Roboto;
   }
   .home-navlink3 {
-    font-family: Roboto;
-  }
-  .home-navlink4 {
     font-family: Roboto;
   }
   .home-link {
@@ -258,8 +251,13 @@
   .home-mobile-menu {
     background-color: #161616;
   }
+  .home-navlink4 {
+    color: var(--dl-color-gray-white);
+    margin-bottom: var(--dl-space-space-unit);
+  }
   .home-navlink5 {
     color: var(--dl-color-gray-white);
+    margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
   .home-navlink6 {
@@ -268,11 +266,6 @@
     margin-bottom: var(--dl-space-space-unit);
   }
   .home-navlink7 {
-    color: var(--dl-color-gray-white);
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .home-navlink8 {
     color: var(--dl-color-gray-white);
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
@@ -297,9 +290,6 @@
   }
 }
 @media(max-width: 479px) {
-  .home-container {
-    background-image: url('https://media.discordapp.net/attachments/976347575508672512/1175876573577089224/noname2.png?ex=656cd365&is=655a5e65&hm=601e8dcde0dd7399ddab777cfc3d2e4c0e5bb731a2da5165f57dc6a2f5cd1db9&=&width=1094&height=626');
-  }
   .home-navbar-interactive {
     padding: var(--dl-space-space-unit);
   }
@@ -310,6 +300,10 @@
   .home-logo {
     box-shadow: 5px 5px 10px 0px #d4d4d4;
   }
+  .home-navlink4 {
+    color: var(--dl-color-gray-white);
+    font-family: Roboto;
+  }
   .home-navlink5 {
     color: var(--dl-color-gray-white);
     font-family: Roboto;
@@ -319,10 +313,6 @@
     font-family: Roboto;
   }
   .home-navlink7 {
-    color: var(--dl-color-gray-white);
-    font-family: Roboto;
-  }
-  .home-navlink8 {
     color: var(--dl-color-gray-white);
     font-family: Roboto;
   }

@@ -179,7 +179,7 @@
 }
 .home-text1 {
   color: var(--dl-color-gray-white);
-  width: var(--dl-size-size-maxwidth);
+  width: 1400px;
   font-size: 12px;
   text-align: center;
   line-height: 2;

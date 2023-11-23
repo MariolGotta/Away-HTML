@@ -8,6 +8,7 @@
   background-size: cover;
   justify-content: flex-start;
   background-image: url("public/background-1500w.webp");
+  background-position: center;
 }
 .ranking2-navbar-interactive {
   width: 100%;
@@ -187,9 +188,15 @@
 .ranking2-container4 {
   display: contents;
 }
+@media(max-width: 1600px) {
+  .ranking2-container {
+    background-position: center;
+  }
+}
 @media(max-width: 1200px) {
   .ranking2-container {
     border-width: 0px;
+    background-position: center;
   }
   .ranking2-navlink {
     font-family: Arial;

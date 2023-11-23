@@ -7,6 +7,7 @@
   flex-direction: column;
   background-size: cover;
   background-image: url("public/background-1500w.webp");
+  background-position: center;
 }
 .servers-navbar-interactive {
   width: 100%;
@@ -151,7 +152,15 @@
 .servers-icon-group {
   border: 2px dashed rgba(120, 120, 120, 0.4);
 }
+@media(max-width: 1600px) {
+  .servers-container {
+    background-position: center;
+  }
+}
 @media(max-width: 1200px) {
+  .servers-container {
+    background-position: center;
+  }
   .servers-navlink {
     font-family: Arial;
   }
@@ -168,7 +177,15 @@
     font-family: Arial;
   }
 }
+@media(max-width: 991px) {
+  .servers-container {
+    background-position: center;
+  }
+}
 @media(max-width: 767px) {
+  .servers-container {
+    background-position: center;
+  }
   .servers-navbar-interactive {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
@@ -215,6 +232,9 @@
   }
 }
 @media(max-width: 479px) {
+  .servers-container {
+    background-position: center;
+  }
   .servers-navbar-interactive {
     padding: var(--dl-space-space-unit);
   }

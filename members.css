@@ -8,6 +8,7 @@
   background-size: cover;
   justify-content: flex-start;
   background-image: url("public/background-1500w.webp");
+  background-position: center;
 }
 .members-navbar-interactive {
   width: 100%;
@@ -152,7 +153,15 @@
 .members-icon-group {
   border: 2px dashed rgba(120, 120, 120, 0.4);
 }
+@media(max-width: 1600px) {
+  .members-container {
+    background-position: center;
+  }
+}
 @media(max-width: 1200px) {
+  .members-container {
+    background-position: center;
+  }
   .members-navlink {
     font-family: Arial;
   }
@@ -169,7 +178,15 @@
     font-family: Arial;
   }
 }
+@media(max-width: 991px) {
+  .members-container {
+    background-position: center;
+  }
+}
 @media(max-width: 767px) {
+  .members-container {
+    background-position: center;
+  }
   .members-navbar-interactive {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
@@ -216,6 +233,9 @@
   }
 }
 @media(max-width: 479px) {
+  .members-container {
+    background-position: center;
+  }
   .members-navbar-interactive {
     padding: var(--dl-space-space-unit);
   }

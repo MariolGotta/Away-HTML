@@ -8,7 +8,7 @@
   flex-direction: column;
   background-size: cover;
   background-image: url("public/background-1500w.webp");
-  background-position: top;
+  background-position: center;
 }
 .home-navbar-interactive {
   width: 100%;
@@ -205,7 +205,7 @@
 }
 @media(max-width: 1600px) {
   .home-container {
-    background-position: top;
+    background-position: center;
   }
   .home-text1 {
     width: var(--dl-size-size-maxwidth);
@@ -216,7 +216,7 @@
 }
 @media(max-width: 1200px) {
   .home-container {
-    background-position: top;
+    background-position: center;
   }
   .home-navlink {
     font-family: Arial;
@@ -246,7 +246,7 @@
 }
 @media(max-width: 991px) {
   .home-container {
-    background-position: top;
+    background-position: center;
   }
   .home-text1 {
     width: 850px;
@@ -256,7 +256,7 @@
 }
 @media(max-width: 767px) {
   .home-container {
-    background-position: top;
+    background-position: center;
   }
   .home-navbar-interactive {
     padding-left: var(--dl-space-space-twounits);
@@ -318,7 +318,7 @@
 }
 @media(max-width: 479px) {
   .home-container {
-    background-position: top;
+    background-position: center;
   }
   .home-navbar-interactive {
     padding: var(--dl-space-space-unit);

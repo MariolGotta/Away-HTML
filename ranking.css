@@ -8,6 +8,7 @@
   background-size: cover;
   justify-content: flex-start;
   background-image: url("public/background-1500w.webp");
+  background-position: center;
 }
 .ranking-navbar-interactive {
   width: 100%;
@@ -187,9 +188,15 @@
 .ranking-container4 {
   display: contents;
 }
+@media(max-width: 1600px) {
+  .ranking-container {
+    background-position: center;
+  }
+}
 @media(max-width: 1200px) {
   .ranking-container {
     border-width: 0px;
+    background-position: center;
   }
   .ranking-navlink {
     font-family: Arial;
@@ -207,7 +214,15 @@
     font-family: Arial;
   }
 }
+@media(max-width: 991px) {
+  .ranking-container {
+    background-position: center;
+  }
+}
 @media(max-width: 767px) {
+  .ranking-container {
+    background-position: center;
+  }
   .ranking-navbar-interactive {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
@@ -254,6 +269,9 @@
   }
 }
 @media(max-width: 479px) {
+  .ranking-container {
+    background-position: center;
+  }
   .ranking-navbar-interactive {
     padding: var(--dl-space-space-unit);
   }

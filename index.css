@@ -357,7 +357,7 @@
     font-style: normal;
     margin-top: var(--dl-space-space-oneandhalfunits);
     font-weight: 400;
-    line-height: 2;
+    line-height: 1.5;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
   .home-social-bar {

@@ -154,19 +154,19 @@
 }
 @media(max-width: 1200px) {
   .members-navlink {
-    font-family: Roboto;
+    font-family: Arial;
   }
   .members-navlink1 {
-    font-family: Roboto;
+    font-family: Arial;
   }
   .members-navlink2 {
-    font-family: Roboto;
+    font-family: Arial;
   }
   .members-navlink3 {
-    font-family: Roboto;
+    font-family: Arial;
   }
   .members-link {
-    font-family: Roboto;
+    font-family: Arial;
   }
 }
 @media(max-width: 767px) {

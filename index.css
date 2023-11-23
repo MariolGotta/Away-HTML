@@ -219,28 +219,28 @@
     background-position: top;
   }
   .home-navlink {
-    font-family: Roboto;
+    font-family: Arial;
   }
   .home-navlink1 {
-    font-family: Roboto;
+    font-family: Arial;
   }
   .home-navlink2 {
-    font-family: Roboto;
+    font-family: Arial;
   }
   .home-navlink3 {
-    font-family: Roboto;
+    font-family: Arial;
   }
   .home-link {
-    font-family: Roboto;
+    font-family: Arial;
   }
   .home-text {
-    font-family: Roboto;
+    font-family: Arial;
   }
   .home-text1 {
     color: var(--dl-color-gray-white);
     width: 1100px;
     text-align: center;
-    font-family: Roboto;
+    font-family: Arial;
     line-height: 2;
   }
 }
